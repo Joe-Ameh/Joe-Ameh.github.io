@@ -141,6 +141,10 @@ a{
     line-height: 1.5;
     font-size: 3.1rem;
   }
+
+  .home h3{
+    font-size: 11px;
+  }
   
   
   .bg-dark .home  {
