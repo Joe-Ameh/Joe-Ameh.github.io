@@ -69,14 +69,26 @@ a{
 }
 
 #home, #about, #project{
-    padding-bottom: 40px;
+  padding-bottom: 40px;
+  /* height: 100vh;
+  overflow: scroll;
+  position: sticky;
+  top: 70px;
+  background: white; */
 }
+/* #contact, #freelance{
+  height: 100vh;
+  overflow: scroll;
+  position: sticky;
+  top: 70px;
+  background: white;
+} */
 .header h2{
-    color: transparent;
-    background: linear-gradient(to right, rgb(2, 218, 218), teal 50%, rgb(0, 39, 39));
-    background-clip: text;
-    -webkit-background-clip: text;
-    font-weight: 700;
+  color: transparent;
+  background: linear-gradient(to right, rgb(2, 218, 218), teal 50%, rgb(0, 39, 39));
+  background-clip: text;
+  -webkit-background-clip: text;
+  font-weight: 700;
 }
 
 .navbar-toggler {
@@ -462,7 +474,7 @@ a{
     display: -ms-grid;
     display: grid;
     -ms-grid-columns: 1fr 1rem 1fr 1rem 1fr;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(5, 1fr);
     gap: 1rem;
   }
   .flow-bar {
@@ -505,7 +517,7 @@ a{
 
 
 
-  /* project section */
+  /*  section */
   .bg-dark .project{
     color: #dcdcdc;
   }
@@ -538,11 +550,11 @@ a{
     border: 1px solid #b6cdff;
   }
   .contact .imagebg, .about .imagebg{
-    background: linear-gradient(to bottom, rgba(0, 128, 128, 0.349), rgba(0, 128, 128, 0.144));
+    /* background: linear-gradient(to bottom, rgba(0, 128, 128, 0.349), rgba(0, 128, 128, 0.144)); */
     border-radius: 40px 40px 0 0;
   }
   .bg-dark .contact .imagebg, .bg-dark .about .imagebg{
-    background: linear-gradient(to bottom, rgba(0, 128, 128, 0.349), rgba(0, 128, 128, 0.144));
+    /* background: linear-gradient(to bottom, rgba(0, 128, 128, 0.349), rgba(0, 128, 128, 0.144)); */
   }
   .contact .card{
     transition: .7s;
@@ -577,7 +589,7 @@ a{
 
   /* footer section */
 .footer{
-background: linear-gradient(to top, rgb(0, 14, 14), rgb(1, 43, 43)) ;
+    background: linear-gradient(to top, rgb(0, 14, 14), rgb(1, 43, 43)) ;
     border-radius: 2rem 2rem 0 0;
     color: #dcdcdc;
 }
